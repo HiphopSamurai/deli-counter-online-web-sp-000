@@ -4,9 +4,9 @@ def line(array)
   if array.length == 0
     puts "The line is empty"
   else
-    puts "The line is currently: "
+    print "The line is currently: "
     array.each do |name|
-      puts "#{number}. #{name}"
+      print " #{number}. #{name}"
       number += 1
     end
   end
